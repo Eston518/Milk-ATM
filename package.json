@@ -1,0 +1,16 @@
+{
+  "name": "milkatm-mpesa-middleware",
+  "version": "1.0.0",
+  "description": "STK Push middleware for the Milk ATM",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
